@@ -8,6 +8,9 @@ import FloatingActionButtons from '../Components/FAButtonHome';
 import SimpleBottomNavigation from '../Components/BottomNavigation';
 import ControlledAccordions from '../Components/ControlledAccordion';
 import MaterialUIPickers from '../Components/Datepicker';
+import SimpleCard from '../Components/SimpleCard';
+import DotsMobileStepper from '../Components/Stepper';
+import TextMobileStepper from '../Components/CarouselCard';
 
 export default function Home() {
   return (
@@ -19,14 +22,17 @@ export default function Home() {
             <p>
                 To get started, edit <code>src/App.js</code>, save, and reload this page.
             </p>
-            <DatePickers/>
+            {/* <DatePickers/> */}
             <ContainedButtons/>
-            <BasicButtonGroup/>
-            <Checkboxes/>
+            {/* <BasicButtonGroup/> */}
+            {/* <Checkboxes/> */}
             <FloatingActionButtons/>
-            <MaterialUIPickers/>
-            <SimpleBottomNavigation/>
+            {/* <MaterialUIPickers/> */}
+            {/* <SimpleBottomNavigation/> */}
             <ControlledAccordions/>
+            <SimpleCard/>
+            <DotsMobileStepper/>
+            <TextMobileStepper/>
         </Container>
     </React.Fragment>
   );

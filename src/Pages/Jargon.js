@@ -1,12 +1,8 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import DatePickers from '../Components/DateTimePicker';
-import SimpleCard from '../Components/SimpleCard';
-import ImgMediaCard from '../Components/MediaCard';
-import ContainedButtons from '../Components/ButtonsHome';
-import FloatingActionButtons from '../Components/FAButtonHome';
 
-export default function InvestmentPlans() {
+export default function Jargon() {
   return (
     <React.Fragment>
         <Container fixed>
@@ -16,10 +12,6 @@ export default function InvestmentPlans() {
             <p>
                 To get started, edit <code>src/App.js</code>, save, and reload this page.
             </p>
-            <SimpleCard/>
-            <ImgMediaCard/>
-            <ContainedButtons/>
-            <FloatingActionButtons/>
         </Container>
     </React.Fragment>
   );

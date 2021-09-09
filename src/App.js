@@ -6,6 +6,8 @@ import Gallery from './Pages/Gallery.js'
 import PrimarySearchAppBar from './Components/AppBarSearch';
 import InvestmentPlans from './Pages/InvestmentPlans';
 import ULIP from './Pages/ULIP'
+import FAQ from './Pages/FAQ';
+import Jargon from './Pages/Jargon';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
             <Route path={process.env.PUBLIC_URL + '/investmentplans'}  > <InvestmentPlans/> </Route>
             <Route path={process.env.PUBLIC_URL + '/ulip'}  > <ULIP/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/faq'}  > <FAQ/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/jargon'}  > <Jargon/> </Route>
           </Switch>
 
       <footer className="App-footer">
