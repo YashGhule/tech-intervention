@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import DatePickers from '../Components/DateTimePicker';
 
-export default function InvestmentPlans() {
+export default function ULIP() {
   return (
     <React.Fragment>
         <Container fixed>

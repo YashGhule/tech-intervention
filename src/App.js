@@ -5,6 +5,7 @@ import Home from './Pages/Home.js'
 import Gallery from './Pages/Gallery.js'
 import PrimarySearchAppBar from './Components/AppBarSearch';
 import InvestmentPlans from './Pages/InvestmentPlans';
+import ULIP from './Pages/ULIP'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
             <Route path={process.env.PUBLIC_URL + '/investmentplans'}  > <InvestmentPlans/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/ulip'}  > <ULIP/> </Route>
           </Switch>
 
       <footer className="App-footer">
