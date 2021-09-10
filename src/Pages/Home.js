@@ -11,6 +11,8 @@ import MaterialUIPickers from '../Components/Datepicker';
 import SimpleCard from '../Components/SimpleCard';
 import DotsMobileStepper from '../Components/Stepper';
 import TextMobileStepper from '../Components/CarouselCard';
+import SimpleBackdrop from '../Components/Backdrop';
+import SimplePaper from '../Components/Paper';
 
 export default function Home() {
   return (
@@ -24,7 +26,6 @@ export default function Home() {
             </p>
             {/* <DatePickers/> */}
             <ContainedButtons/>
-            {/* <BasicButtonGroup/> */}
             {/* <Checkboxes/> */}
             <FloatingActionButtons/>
             {/* <MaterialUIPickers/> */}
@@ -33,6 +34,9 @@ export default function Home() {
             <SimpleCard/>
             <DotsMobileStepper/>
             <TextMobileStepper/>
+            <SimpleBackdrop/>
+            <BasicButtonGroup/>
+            <SimplePaper/>
         </Container>
     </React.Fragment>
   );

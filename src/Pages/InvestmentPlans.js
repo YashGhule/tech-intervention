@@ -5,6 +5,8 @@ import SimpleCard from '../Components/SimpleCard';
 import ImgMediaCard from '../Components/MediaCard';
 import ContainedButtons from '../Components/ButtonsHome';
 import FloatingActionButtons from '../Components/FAButtonHome';
+import SimpleBreadcrumbs from '../Components/Breadcrumb';
+import BasicButtonGroup from '../Components/ButtonGroupHome';
 
 export default function InvestmentPlans() {
   return (
@@ -20,6 +22,8 @@ export default function InvestmentPlans() {
             <ImgMediaCard/>
             <ContainedButtons/>
             <FloatingActionButtons/>
+            <SimpleBreadcrumbs/>
+            <BasicButtonGroup/>
         </Container>
     </React.Fragment>
   );
