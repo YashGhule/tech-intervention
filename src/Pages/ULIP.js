@@ -11,6 +11,7 @@ import DotsMobileStepper from '../Components/Stepper';
 import TextMobileStepper from '../Components/CarouselCard';
 import SimpleBackdrop from '../Components/Backdrop';
 import FloatingActionButtons from '../Components/FAButtonHome';
+import SimpleDialogDemo from '../Components/DialogBox';
 
 export default function ULIP() {
   return (
@@ -32,6 +33,7 @@ export default function ULIP() {
             <TextMobileStepper/>
             <SimpleBackdrop/>
             <FloatingActionButtons/>
+            <SimpleDialogDemo/>
         </Container>
     </React.Fragment>
   );

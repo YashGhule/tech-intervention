@@ -13,6 +13,7 @@ import DotsMobileStepper from '../Components/Stepper';
 import TextMobileStepper from '../Components/CarouselCard';
 import SimpleBackdrop from '../Components/Backdrop';
 import SimplePaper from '../Components/Paper';
+import SimpleDialogDemo from '../Components/DialogBox';
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
             <SimpleBackdrop/>
             <BasicButtonGroup/>
             <SimplePaper/>
+            <SimpleDialogDemo/>
         </Container>
     </React.Fragment>
   );

@@ -5,6 +5,7 @@ import SimpleBreadcrumbs from '../Components/Breadcrumb';
 import SimpleCard from '../Components/SimpleCard';
 import SimplePaper from '../Components/Paper';
 import FloatingActionButtons from '../Components/FAButtonHome';
+import SimpleDialogDemo from '../Components/DialogBox';
 
 export default function FAQ() {
   return (
@@ -20,6 +21,7 @@ export default function FAQ() {
             <SimpleCard/>
             <SimplePaper/>
             <FloatingActionButtons/>
+            <SimpleDialogDemo/>
         </Container>
     </React.Fragment>
   );

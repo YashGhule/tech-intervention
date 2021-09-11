@@ -22,7 +22,7 @@ export default function InvestmentPlans() {
             <ImgMediaCard/>
             <ContainedButtons/>
             <FloatingActionButtons/>
-            <SimpleBreadcrumbs/>
+            {/* <SimpleBreadcrumbs/> */}
             <BasicButtonGroup/>
         </Container>
     </React.Fragment>
