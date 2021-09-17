@@ -15,11 +15,11 @@ export default function ContainedButtons() {
 
   return (
     <div className={classes.root}>
-      <Button variant="outlined">Default</Button>
+      {/* <Button variant="outlined">Default</Button> */}
       <Button variant="outlined" color="primary">
         Primary
       </Button>
-      <Button variant="outlined" color="secondary">
+      {/* <Button variant="outlined" color="secondary">
         Secondary
       </Button>
       <Button variant="contained" disabled>
@@ -27,7 +27,7 @@ export default function ContainedButtons() {
       </Button>
       <Button variant="contained" color="primary" href="#contained-buttons">
         Link
-      </Button>
+      </Button> */}
     </div>
   );
 }

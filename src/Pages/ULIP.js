@@ -4,14 +4,15 @@ import DatePickers from '../Components/DateTimePicker';
 import ControlledAccordions from '../Components/ControlledAccordion';
 import SimpleBreadcrumbs from '../Components/Breadcrumb';
 import BasicButtonGroup from '../Components/ButtonGroupHome';
-import SimplePaper from '../Components/Paper';
+import SimplePaper from '../Components/Paper(BIGquestions)';
 import ContainedButtons from '../Components/ButtonsHome';
 import SimpleCard from '../Components/SimpleCard';
-import DotsMobileStepper from '../Components/Stepper';
-import TextMobileStepper from '../Components/CarouselCard';
+import TextMobileStepper from '../Components/TrendingNowHomeCarousel';
 import SimpleBackdrop from '../Components/Backdrop';
 import FloatingActionButtons from '../Components/FAButtonHome';
 import SimpleDialogDemo from '../Components/DialogBox';
+import SimplePaper1 from '../Components/Paper(BIGquestions)';
+import SimpleCard1 from '../Components/LifeInsurancePlanHomeCard';
 
 export default function ULIP() {
   return (
@@ -26,10 +27,9 @@ export default function ULIP() {
             <ControlledAccordions/>
             <SimpleBreadcrumbs/>
             <BasicButtonGroup/>
-            <SimplePaper/>
+            <SimplePaper1/>
             <ContainedButtons/>
             <SimpleCard/>
-            <DotsMobileStepper/>
             <TextMobileStepper/>
             <SimpleBackdrop/>
             <FloatingActionButtons/>

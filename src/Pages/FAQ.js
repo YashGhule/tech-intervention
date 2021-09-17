@@ -3,9 +3,10 @@ import Container from '@material-ui/core/Container';
 import DatePickers from '../Components/DateTimePicker';
 import SimpleBreadcrumbs from '../Components/Breadcrumb';
 import SimpleCard from '../Components/SimpleCard';
-import SimplePaper from '../Components/Paper';
+import SimplePaper from '../Components/Paper(BIGquestions)';
 import FloatingActionButtons from '../Components/FAButtonHome';
 import SimpleDialogDemo from '../Components/DialogBox';
+import SimplePaper1 from '../Components/Paper(BIGquestions)';
 
 export default function FAQ() {
   return (
@@ -19,7 +20,7 @@ export default function FAQ() {
             </p>
             <SimpleBreadcrumbs/>
             <SimpleCard/>
-            <SimplePaper/>
+            <SimplePaper1/>
             <FloatingActionButtons/>
             <SimpleDialogDemo/>
         </Container>
