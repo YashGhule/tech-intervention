@@ -8,16 +8,16 @@ function handleClick(event) {
   console.info('You clicked a breadcrumb.');
 }
 
-export default function SimpleBreadcrumbs() {
+export default function SimpleBreadcrumbs1() {
   return (
     <Breadcrumbs aria-label="breadcrumb">
       <Link color="inherit" href="/" onClick={handleClick}>
-        Material-UI
+        Home
       </Link>
       <Link color="inherit" href="/getting-started/installation/" onClick={handleClick}>
-        Core
+        ULIP
       </Link>
-      <Typography color="textPrimary">Breadcrumb</Typography>
+      <Typography color="textPrimary">Life Insurance Terms</Typography>
     </Breadcrumbs>
   );
 }

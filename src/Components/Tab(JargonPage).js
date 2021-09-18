@@ -4,15 +4,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import PhoneIcon from '@material-ui/icons/Phone';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import PersonPinIcon from '@material-ui/icons/PersonPin';
-import HelpIcon from '@material-ui/icons/Help';
-import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
-import ThumbDown from '@material-ui/icons/ThumbDown';
-import ThumbUp from '@material-ui/icons/ThumbUp';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { List, ListItem } from '@material-ui/core';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -75,17 +69,36 @@ export default function ScrollableTabsButtonForce() {
           textColor="primary"
           aria-label="scrollable force tabs example"
         >
-          <Tab label="Item One" icon={<PhoneIcon />} {...a11yProps(0)} />
-          <Tab label="Item Two" icon={<FavoriteIcon />} {...a11yProps(1)} />
-          <Tab label="Item Three" icon={<PersonPinIcon />} {...a11yProps(2)} />
-          <Tab label="Item Four" icon={<HelpIcon />} {...a11yProps(3)} />
-          <Tab label="Item Five" icon={<ShoppingBasket />} {...a11yProps(4)} />
-          <Tab label="Item Six" icon={<ThumbDown />} {...a11yProps(5)} />
-          <Tab label="Item Seven" icon={<ThumbUp />} {...a11yProps(6)} />
+          <Tab label="A" {...a11yProps(0)} />
+          <Tab label="B" {...a11yProps(1)} />
+          <Tab label="C" {...a11yProps(2)} />
+          <Tab label="D" {...a11yProps(3)} />
+          <Tab label="E" {...a11yProps(4)} />
+          <Tab label="F" {...a11yProps(5)} />
+          <Tab label="G" {...a11yProps(6)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        <List component="nav" className={classes.root} aria-label="mailbox folders">
+                <ListItem >
+                  <h4>
+                    Accidental Death Benefit
+                  </h4>
+                    Under this benefit, a sum of money is paid over and above the death benefit in the event of death caused due to an accident.
+                </ListItem>
+                <ListItem >
+                  <h4>
+                    Additional Riders
+                  </h4>
+                    Add-on riders like severe sickness or accidental death coverage may incur an additional premium when choosing additional benefits.
+                </ListItem>
+                <ListItem >
+                  <h4>
+                    Adverse Selection
+                  </h4>
+                    The tendency of persons exposed a higher risk to seek more insurance coverage than those at a lower risk. Insurers react either by charging higher premiums or not insuring at all, as in the case of floods. Adverse selection concentrates risk instead of spreading it. The fact is that the insurance works best when risk is shared among a large number of the policyholders.
+                </ListItem>
+            </List>
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two

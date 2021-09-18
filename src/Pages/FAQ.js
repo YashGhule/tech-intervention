@@ -1,28 +1,35 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import DatePickers from '../Components/DateTimePicker';
-import SimpleBreadcrumbs from '../Components/Breadcrumb';
-import SimpleCard from '../Components/SimpleCard';
-import SimplePaper from '../Components/Paper(BIGquestions)';
-import FloatingActionButtons from '../Components/FAButtonHome';
 import SimpleDialogDemo from '../Components/DialogBox';
-import SimplePaper1 from '../Components/Paper(BIGquestions)';
+import SimpleCard6 from '../Components/Q1(FAQPage)';
+import SimpleCard7 from '../Components/Q2(FAQPage)';
+import SimpleCard8 from '../Components/Q3(FAQPage)';
+import SimpleCard9 from '../Components/Q4(FAQPage)';
+import SimpleCard10 from '../Components/Q5(FAQPage)';
+import SimpleCard11 from '../Components/Q6(FAQPage)';
+import SimpleCard12 from '../Components/Q7(FAQPage)';
+import SimpleCard13 from '../Components/Q8(FAQPage)';
+import SimpleCard14 from '../Components/Q9(FAQPage)';
+import SimpleCard15 from '../Components/Q10(FAQPage)';
 
 export default function FAQ() {
   return (
     <React.Fragment>
         <Container fixed>
-            <p>
-                Welcome to your web application. Make something beautiful!
-            </p>
-            <p>
-                To get started, edit <code>src/App.js</code>, save, and reload this page.
-            </p>
-            <SimpleBreadcrumbs/>
-            <SimpleCard/>
-            <SimplePaper1/>
-            <FloatingActionButtons/>
-            <SimpleDialogDemo/>
+            <h2>
+                FAQs
+            </h2>
+            <SimpleCard6/>
+            <SimpleCard7/>
+            <SimpleCard8/>
+            <SimpleCard9/>
+            <SimpleCard10/>
+            <SimpleCard11/>
+            <SimpleCard12/>
+            <SimpleCard13/>
+            <SimpleCard14/>
+            <SimpleCard15/>
+            {/* <SimpleDialogDemo/> */}
         </Container>
     </React.Fragment>
   );

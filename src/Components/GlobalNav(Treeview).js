@@ -23,7 +23,7 @@ export default function FileSystemNavigator() {
       defaultCollapseIcon={<ExpandMoreIcon />}
       defaultExpandIcon={<ChevronRightIcon />}
     >
-      <TreeItem nodeId="1" label="Applications">
+      <TreeItem nodeId="1" label="Guaranteed Income Plans">
       <Divider />
         <TreeItem nodeId="2" label="Calendar" />
         <Divider />
@@ -33,7 +33,7 @@ export default function FileSystemNavigator() {
         <Divider />
       </TreeItem>
       <Divider />
-      <TreeItem nodeId="5" label="Documents">
+      <TreeItem nodeId="5" label="Insurance Plans">
       <Divider />
         <TreeItem nodeId="10" label="OSS" />
         <Divider />

@@ -12,9 +12,9 @@
 }
 
 .App-footer {
-  background-color: #282c34;
+  background-color: #a6abb4;
   color: white;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;

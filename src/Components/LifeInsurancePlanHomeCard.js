@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     transform: 'scale(0.8)',
   },
   title: {
-    fontSize: 14,
+    fontSize: 16,
   },
   pos: {
     marginBottom: 12,
@@ -31,7 +31,7 @@ export default function SimpleCard1() {
   return (
     <Card className={classes.root}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
+        <Typography className={classes.title}>
         Life Insurance Plan For Every Possibility
         </Typography>
       </CardContent>

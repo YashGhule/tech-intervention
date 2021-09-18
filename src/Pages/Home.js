@@ -1,36 +1,47 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import ContainedButtons from '../Components/ButtonsHome';
-import BasicButtonGroup from '../Components/ButtonGroupHome';
-import FloatingActionButtons from '../Components/FAButtonHome';
-import ControlledAccordions from '../Components/ControlledAccordion';
-import SimpleCard from '../Components/SimpleCard';
 import TextMobileStepper from '../Components/TrendingNowHomeCarousel';
 import SimpleBackdrop from '../Components/Backdrop';
 import SimpleDialogDemo from '../Components/DialogBox';
 import SimpleCard1 from '../Components/LifeInsurancePlanHomeCard';
 import TextMobileStepper1 from '../Components/StoriesHomeCarousel';
-import SimplePaper1 from '../Components/Paper(BIGquestions)';
+import SimpleCard2 from '../Components/AnsYourQueriesCard1';
+import ContainedButtons1 from '../Components/BuyNow(Home-GetCustomQuote)';
+import ContainedButtons2 from '../Components/ReadMore(Home-AnsYourQueries)';
+import SimpleCard3 from '../Components/AnsYourQueriesCard2';
+import SimpleCard4 from '../Components/AnsYourQueriesCard3';
+import SimpleCard5 from '../Components/AnsYourQueriesCard4';
 
 export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
-            <p>
-                
-            </p>
-            <p>
-            
-            </p>
-            <SimplePaper1/>
+            <h2>
+              Are these your life's BIG questions?
+            </h2>
             <SimpleCard1/>
+            <h2>
+              Trending Now!
+            </h2>
             <TextMobileStepper/>
             <TextMobileStepper1/>
-            <SimpleCard/>
+            <h2>
+              Answering your Queries
+            </h2>
+            <SimpleCard2/>
+            <SimpleCard3/>
+            <SimpleCard4/>
+            <SimpleCard5/>
+            <ContainedButtons2/>
+            <h2>
+              Get Customized Quote
+            </h2>
+            <p>
+              With Bharti AXA Life Insurance guaranteed income pro, get insurance cover and assured returns on maturity
+            </p>
+            <ContainedButtons1/>
             <SimpleBackdrop/>
-            <BasicButtonGroup/>
-            <SimpleDialogDemo/>
-            <ControlledAccordions/>
+            {/* <SimpleDialogDemo/> */}
         </Container>
     </React.Fragment>
   );

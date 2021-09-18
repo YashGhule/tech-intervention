@@ -4,10 +4,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
-import TemporaryDrawer from './Drawer';
+import TemporaryDrawer1 from './Drawer(MenuIcon)';
+import TemporaryDrawer2 from './Drawer(SearchIcon)';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,14 +40,15 @@ export default function ProminentAppBar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <TemporaryDrawer/>
+            <TemporaryDrawer1/>
             {/* <MenuIcon /> */}
           </IconButton>
           <Typography className={classes.title} variant="h5" noWrap>
             
           </Typography>
           <IconButton aria-label="search" color="inherit">
-            <SearchIcon />
+            <TemporaryDrawer2/>
+            {/* <SearchIcon /> */}
           </IconButton>
           <IconButton aria-label="display more actions" edge="end" color="inherit">
             <AccountCircleOutlinedIcon />
