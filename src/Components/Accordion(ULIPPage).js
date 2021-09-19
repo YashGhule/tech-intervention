@@ -6,6 +6,21 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import List1Panel1 from './List1Panel1Accordion(ULIP)';
+import TextMobileStepper2 from './CarouselUnderBenefitsOfULIP(ULIPPage)';
+import BasicTable from './TableUnderTopULIPLifeInsurancePlans(ULIPPage)';
+import TextMobileStepper3 from './CarouselUnderULIPChargers(ULIPPage)';
+import List2Panel2 from './List2Panel2Accordion(ULIP)';
+import List4Panel4 from './List4Panel4Accordion';
+import List5Panel5 from './List5Panel5Accordion';
+import List6Panel6 from './List6Panel6Accordion';
+import List7Panel7 from './List7Panel7Accordion';
+import List8Panel8 from './List8Panel8Accordion';
+import List9Panel9 from './List9Panel9Accordion';
+import List10Panel10 from './List10Panel10Accordion';
+import List11Panel11 from './List11Panel11Accordion';
+import List14Panel14 from './List14Panel14Accordion';
+import List15Panel15 from './List15Panel15Accordion';
+import List13Panel13 from './List13Panel13Accordion';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +57,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <List1Panel1/>
+            <List1Panel1 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -56,8 +71,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-            diam eros in elit. Pellentesque convallis laoreet laoreet.
+            <List2Panel2 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -70,10 +84,7 @@ export default function ControlledAccordions2() {
           <Typography className={classes.heading}>Benefits of ULIP</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
-          </Typography>
+          <TextMobileStepper2 />
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
@@ -86,8 +97,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List4Panel4 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -101,8 +111,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List5Panel5 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -116,8 +125,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List6Panel6 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -131,8 +139,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List7Panel7 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -146,8 +153,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List8Panel8 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -161,9 +167,9 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List9Panel9 />
           </Typography>
+          <BasicTable />
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
@@ -176,8 +182,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List10Panel10 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -191,8 +196,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List11Panel11 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -206,9 +210,9 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            There are fees associated with ULIPs, which can be broken down into several categories. The following are the ones you should be aware of.
           </Typography>
+          <TextMobileStepper3 />
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel13'} onChange={handleChange('panel13')}>
@@ -221,8 +225,9 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            ULIP plans, like any other life insurance product, can be acquired online quickly and easily. So, let's have a look at how to buy ULIP plan online.
+            <List13Panel13 />
+            Investors can pay using a debit card, a credit card, an online wallet, or net banking to buy ULIP  policy online.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -236,8 +241,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List14Panel14 />
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -251,8 +255,7 @@ export default function ControlledAccordions2() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            <List15Panel15 />
           </Typography>
         </AccordionDetails>
       </Accordion>

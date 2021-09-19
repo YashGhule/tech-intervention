@@ -23,30 +23,58 @@ export default function FileSystemNavigator() {
       defaultCollapseIcon={<ExpandMoreIcon />}
       defaultExpandIcon={<ChevronRightIcon />}
     >
-      <TreeItem nodeId="1" label="Guaranteed Income Plans">
-      <Divider />
-        <TreeItem nodeId="2" label="Calendar" />
+      <TreeItem nodeId="1.0" label="Guaranteed Income Plans">
         <Divider />
-        <TreeItem nodeId="3" label="Chrome" />
-        <Divider />
-        <TreeItem nodeId="4" label="Webstorm" />
+        <TreeItem label="Savings Plan" />
         <Divider />
       </TreeItem>
       <Divider />
-      <TreeItem nodeId="5" label="Insurance Plans">
-      <Divider />
-        <TreeItem nodeId="10" label="OSS" />
+      <TreeItem nodeId="1.1" label="Insurance Plans">
         <Divider />
-        <TreeItem nodeId="6" label="Material-UI">
-        <Divider />
-          <TreeItem nodeId="7" label="src">
+        <TreeItem nodeId="2" label="Unit Linked Insurance Plans">
           <Divider />
-            <TreeItem nodeId="8" label="index.js" />
-            <Divider />
-            <TreeItem nodeId="9" label="tree-view.js" />
-            <Divider />
-          </TreeItem>
+          <TreeItem label="Investment Plans" />
+          <Divider />
         </TreeItem>
+        <Divider />
+        <TreeItem nodeId="3" label="Term Insurance Plans">
+          <Divider />
+          <TreeItem label="Protection and Term Insurance Plans" />
+          <Divider />
+        </TreeItem>
+        <Divider />
+        <TreeItem nodeId="4" label="Life Insurance">
+          <Divider />
+          <TreeItem label="Life Insurance Plans" />
+          <Divider />
+        </TreeItem>
+        <Divider />
+      </TreeItem>
+      <Divider />
+      <TreeItem nodeId="1.2" label="About Us">
+        <Divider />
+        <TreeItem label="Life at Bharti AXA" />
+        <Divider />
+        <TreeItem label="Media Centre" />
+        <Divider />
+        <TreeItem label="Join Bharti AXA" />
+        <Divider />
+      </TreeItem>
+      <Divider />
+      <TreeItem nodeId="1.3" label="Support">
+        <Divider />
+        <TreeItem label="Legal" />
+        <Divider />
+        <TreeItem label="Glossary" />
+        <Divider />
+        <TreeItem label="Renew Your Policy" />
+        <Divider />
+        <TreeItem label="Customer" />
+        <Divider />
+        <TreeItem label="Register E-NACH" />
+        <Divider />
+        <TreeItem label="Claim Centre" />
+        <Divider />
       </TreeItem>
     </TreeView>
   );

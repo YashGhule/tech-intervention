@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
-import DotsMobileStepper from './Stepper';
+import Grid from '@material-ui/core/Grid';
 
 const tutorialSteps = [
   {
@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 150,
     overflow: 'hidden',
     display: 'block',
-    width: '100%',
+    // width: '100%',
   },
 }));
 
@@ -79,19 +79,25 @@ export default function TextMobileStepper() {
       <Paper square elevation={0} className={classes.header}>
         <Typography>{tutorialSteps[activeStep].label}</Typography>
       </Paper>
-      <Paper square elevation={0} className={classes.body}>
-        <Typography>
-          Bharti AXA urges you to choose certainty for important life goals with guaranteed solution
+      <Grid container wrap="nowrap">
+        <Grid item >
+          <Paper square elevation={0} className={classes.body}>
+            <Typography>
+              Bharti AXA urges you to choose certainty for important life goals with guaranteed solution
 
-          #savingsplan #bhartaxasmartplan
-        </Typography>
-      </Paper>
-      <img
-        className={classes.img}
-        src={tutorialSteps[activeStep].imgPath}
-        alt={tutorialSteps[activeStep].label}
-      />
-      
+              #savingsplan #bhartaxasmartplan
+            </Typography>
+          </Paper>
+        </Grid>
+        <Grid item >
+          <img
+            className={classes.img}
+            src={tutorialSteps[activeStep].imgPath}
+            alt={tutorialSteps[activeStep].label}
+          />
+        </Grid>
+      </Grid>
+
       <MobileStepper
         steps={maxSteps}
         position="static"

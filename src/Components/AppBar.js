@@ -7,13 +7,15 @@ import { makeStyles } from '@material-ui/core/styles';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
 import TemporaryDrawer1 from './Drawer(MenuIcon)';
 import TemporaryDrawer2 from './Drawer(SearchIcon)';
+import { Search } from '@material-ui/icons';
+import logo from '../Assets/BhartiAXALogo.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(80),
   },
   toolbar: {
     minHeight: 6,
@@ -24,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     alignSelf: 'flex-end',
+  },
+  logo: {
+    maxWidth: 160,
   },
 }));
 
@@ -40,15 +45,18 @@ export default function ProminentAppBar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <TemporaryDrawer1/>
+            <TemporaryDrawer1 />
             {/* <MenuIcon /> */}
           </IconButton>
+          <IconButton>
+            <img src={logo} className="BhartiAXA" alt="logo" />
+          </IconButton>
           <Typography className={classes.title} variant="h5" noWrap>
-            
+
           </Typography>
           <IconButton aria-label="search" color="inherit">
-            <TemporaryDrawer2/>
-            {/* <SearchIcon /> */}
+            {/* <TemporaryDrawer2/> */}
+            <Search />
           </IconButton>
           <IconButton aria-label="display more actions" edge="end" color="inherit">
             <AccountCircleOutlinedIcon />

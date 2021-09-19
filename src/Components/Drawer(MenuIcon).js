@@ -73,7 +73,7 @@ export default function TemporaryDrawer1() {
         <React.Fragment key={anchor}>
           <MenuIcon onClick={toggleDrawer(anchor, true)}>{anchor}</MenuIcon>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
-            {<FileSystemNavigator/>}
+            {<FileSystemNavigator />}
           </Drawer>
         </React.Fragment>
       ))}

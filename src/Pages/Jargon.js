@@ -6,13 +6,13 @@ import ScrollableTabsButtonForce from '../Components/Tab(JargonPage)';
 export default function Jargon() {
   return (
     <React.Fragment>
-        <Container fixed>
-            <SimpleBreadcrumbs1/>
-            <h2>
-               Life Insurance Terms
-            </h2>
-            <ScrollableTabsButtonForce/>
-        </Container>
+      <Container fixed>
+        <SimpleBreadcrumbs1 />
+        <h2>
+          Life Insurance Terms
+        </h2>
+        <ScrollableTabsButtonForce />
+      </Container>
     </React.Fragment>
   );
 }

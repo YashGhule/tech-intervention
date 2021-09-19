@@ -1,7 +1,11 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
+import CallIcon from '@material-ui/icons/Call';
+import EmailIcon from '@material-ui/icons/Email';
+import SmsIcon from '@material-ui/icons/Sms';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -9,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     alignItems: 'center',
     '& > *': {
-      margin: theme.spacing(1),
+      margin: theme.spacing(0),
     },
   },
 }));
@@ -19,11 +23,10 @@ export default function BasicButtonGroup2() {
 
   return (
     <div className={classes.root}>
-        <Button>Icon</Button>
-        <Button>Icon</Button>
-        <Button>Icon</Button>
-        <Button>Icon</Button>
-        <Button>Icon</Button>
+      <Button><CallIcon />Call</Button>
+      <Button><EmailIcon />Email</Button>
+      <Button><SmsIcon />SMS</Button>
+      <Button><WhatsAppIcon />Whatsapp</Button>
     </div>
   );
 }

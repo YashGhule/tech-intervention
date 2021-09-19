@@ -22,19 +22,19 @@ export default function SimplePaper1() {
   return (
     <div className={classes.root}>
       <Paper elevation={0} >
-      <h3>
-        IRDAI Notice on Spurious Calls
-      </h3>
-      <p>
-        BEWARE OF SPURIOUS PHONE CALLS AND FICTIOUS/FRAUDULENT OFFERS
+        <h3>
+          IRDAI Notice on Spurious Calls
+        </h3>
+        <p>
+          BEWARE OF SPURIOUS PHONE CALLS AND FICTIOUS/FRAUDULENT OFFERS
 
-        IRDAI is not involved in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint.
-      </p>
-      <Divider/>
-      <p>
-        Copyright. All rights reserved.
-      </p>
-      <BasicButtonGroup3/>
+          IRDAI is not involved in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint.
+        </p>
+        <Divider />
+        <p>
+          Copyright. All rights reserved.
+        </p>
+        <BasicButtonGroup3 />
       </Paper>
     </div>
   );

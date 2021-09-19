@@ -80,25 +80,25 @@ export default function ScrollableTabsButtonForce() {
       </AppBar>
       <TabPanel value={value} index={0}>
         <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                  <h4>
-                    Accidental Death Benefit
-                  </h4>
-                    Under this benefit, a sum of money is paid over and above the death benefit in the event of death caused due to an accident.
-                </ListItem>
-                <ListItem >
-                  <h4>
-                    Additional Riders
-                  </h4>
-                    Add-on riders like severe sickness or accidental death coverage may incur an additional premium when choosing additional benefits.
-                </ListItem>
-                <ListItem >
-                  <h4>
-                    Adverse Selection
-                  </h4>
-                    The tendency of persons exposed a higher risk to seek more insurance coverage than those at a lower risk. Insurers react either by charging higher premiums or not insuring at all, as in the case of floods. Adverse selection concentrates risk instead of spreading it. The fact is that the insurance works best when risk is shared among a large number of the policyholders.
-                </ListItem>
-            </List>
+          <ListItem >
+            <h4>
+              Accidental Death Benefit
+            </h4>
+            Under this benefit, a sum of money is paid over and above the death benefit in the event of death caused due to an accident.
+          </ListItem>
+          <ListItem >
+            <h4>
+              Additional Riders
+            </h4>
+            Add-on riders like severe sickness or accidental death coverage may incur an additional premium when choosing additional benefits.
+          </ListItem>
+          <ListItem >
+            <h4>
+              Adverse Selection
+            </h4>
+            The tendency of persons exposed a higher risk to seek more insurance coverage than those at a lower risk. Insurers react either by charging higher premiums or not insuring at all, as in the case of floods. Adverse selection concentrates risk instead of spreading it. The fact is that the insurance works best when risk is shared among a large number of the policyholders.
+          </ListItem>
+        </List>
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two

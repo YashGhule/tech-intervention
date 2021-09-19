@@ -5,10 +5,10 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import Divider from '@material-ui/core/Divider';
+import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,7 +26,7 @@ export default function InsetDividers() {
       <ListItem button>
         <ListItemAvatar>
           {/* <Avatar> */}
-            <ImageIcon />
+          <LocalHospitalIcon />
           {/* </Avatar> */}
         </ListItemAvatar>
         <ListItemText primary="Protect Life" secondary="Explore for our term insurance plans" />
@@ -35,7 +35,7 @@ export default function InsetDividers() {
       <ListItem button>
         <ListItemAvatar>
           {/* <Avatar> */}
-            <WorkIcon />
+          <AttachMoneyIcon />
           {/* </Avatar> */}
         </ListItemAvatar>
         <ListItemText primary="Create Wealth" secondary="Choose from our spread of ULIP Plans" />
@@ -44,7 +44,7 @@ export default function InsetDividers() {
       <ListItem button>
         <ListItemAvatar>
           {/* <Avatar> */}
-            <BeachAccessIcon />
+          <VerifiedUserIcon />
           {/* </Avatar> */}
         </ListItemAvatar>
         <ListItemText primary="Achieve Goals" secondary="Get guaranteed returns from our savings plan" />

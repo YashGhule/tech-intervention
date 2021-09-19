@@ -43,30 +43,30 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Premium Payment Options
-                </ListItem>
-                <ListItem >
-                    Online Insurance Plans
-                </ListItem>
-                <ListItem >
-                    Term Insurance Calculator
-                </ListItem>
-                <ListItem >
-                    Customer Login
-                </ListItem>
-                <ListItem >
-                    Fund Performance
-                </ListItem>
-                <ListItem >
-                    Be Smart
-                </ListItem>
-                <ListItem >
-                    Insurance Calculators
-                </ListItem>
-                <ListItem >
-                    Sitemap
-                </ListItem>
+              <ListItem >
+                Premium Payment Options
+              </ListItem>
+              <ListItem >
+                Online Insurance Plans
+              </ListItem>
+              <ListItem >
+                Term Insurance Calculator
+              </ListItem>
+              <ListItem >
+                Customer Login
+              </ListItem>
+              <ListItem >
+                Fund Performance
+              </ListItem>
+              <ListItem >
+                Be Smart
+              </ListItem>
+              <ListItem >
+                Insurance Calculators
+              </ListItem>
+              <ListItem >
+                Sitemap
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -82,24 +82,24 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    FAQs
-                </ListItem>
-                <ListItem >
-                    Glossary
-                </ListItem>
-                <ListItem >
-                    What is Tax Planning and Why You Need it?
-                </ListItem>
-                <ListItem >
-                    1 Crore Term Insurance
-                </ListItem>
-                <ListItem >
-                    Demystifying Traditional Insurance Plans
-                </ListItem>
-                <ListItem >
-                    How to Get Better Returns on ULIP
-                </ListItem>
+              <ListItem >
+                FAQs
+              </ListItem>
+              <ListItem >
+                Glossary
+              </ListItem>
+              <ListItem >
+                What is Tax Planning and Why You Need it?
+              </ListItem>
+              <ListItem >
+                1 Crore Term Insurance
+              </ListItem>
+              <ListItem >
+                Demystifying Traditional Insurance Plans
+              </ListItem>
+              <ListItem >
+                How to Get Better Returns on ULIP
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -115,27 +115,27 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Term Insurance
-                </ListItem>
-                <ListItem >
-                    Savings Plans
-                </ListItem>
-                <ListItem >
-                    Investment Plans
-                </ListItem>
-                <ListItem >
-                    Health Insurance Plans
-                </ListItem>
-                <ListItem >
-                    Group Plans
-                </ListItem>
-                <ListItem >
-                    Riders
-                </ListItem>
-                <ListItem >
-                    Yoddha Plans
-                </ListItem>
+              <ListItem >
+                Term Insurance
+              </ListItem>
+              <ListItem >
+                Savings Plans
+              </ListItem>
+              <ListItem >
+                Investment Plans
+              </ListItem>
+              <ListItem >
+                Health Insurance Plans
+              </ListItem>
+              <ListItem >
+                Group Plans
+              </ListItem>
+              <ListItem >
+                Riders
+              </ListItem>
+              <ListItem >
+                Yoddha Plans
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -151,21 +151,21 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Login
-                </ListItem>
-                <ListItem >
-                    Renew Your Policy
-                </ListItem>
-                <ListItem >
-                    Check Unclaimed Amount
-                </ListItem>
-                <ListItem >
-                    Download Statements
-                </ListItem>
-                <ListItem >
-                    Register for E-NACH
-                </ListItem>
+              <ListItem >
+                Login
+              </ListItem>
+              <ListItem >
+                Renew Your Policy
+              </ListItem>
+              <ListItem >
+                Check Unclaimed Amount
+              </ListItem>
+              <ListItem >
+                Download Statements
+              </ListItem>
+              <ListItem >
+                Register for E-NACH
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -181,21 +181,21 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    About Bharti
-                </ListItem>
-                <ListItem >
-                    About AXA
-                </ListItem>
-                <ListItem >
-                    Board of Directors
-                </ListItem>
-                <ListItem >
-                    Leadership Team
-                </ListItem>
-                <ListItem >
-                    Media Center
-                </ListItem>
+              <ListItem >
+                About Bharti
+              </ListItem>
+              <ListItem >
+                About AXA
+              </ListItem>
+              <ListItem >
+                Board of Directors
+              </ListItem>
+              <ListItem >
+                Leadership Team
+              </ListItem>
+              <ListItem >
+                Media Center
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -211,12 +211,12 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Know the Claim Process
-                </ListItem>
-                <ListItem >
-                    Track Your Claims
-                </ListItem>
+              <ListItem >
+                Know the Claim Process
+              </ListItem>
+              <ListItem >
+                Track Your Claims
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -232,15 +232,15 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Careers
-                </ListItem>
-                <ListItem >
-                    For Employees
-                </ListItem>
-                <ListItem >
-                    Become an Agent
-                </ListItem>
+              <ListItem >
+                Careers
+              </ListItem>
+              <ListItem >
+                For Employees
+              </ListItem>
+              <ListItem >
+                Become an Agent
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>
@@ -256,69 +256,69 @@ export default function ControlledAccordions1() {
         <AccordionDetails>
           <Typography>
             <List component="nav" className={classes.root} aria-label="mailbox folders">
-                <ListItem >
-                    Insurance Ombudsman
-                </ListItem>
-                <ListItem >
-                    Corporate Agents and Brokers
-                </ListItem>
-                <ListItem >
-                    Do Not Call
-                </ListItem>
-                <ListItem >
-                    Grievance Redressal
-                </ListItem>
-                <ListItem >
-                    Life Insurance Council
-                </ListItem>
-                <ListItem >
-                    Withdrawn Products
-                </ListItem>
-                <ListItem >
-                    Insurance Marketing Firm
-                </ListItem>
-                <ListItem >
-                    Terms of Usage
-                </ListItem>
-                <ListItem >
-                    Public Disclosures
-                </ListItem>
-                <ListItem >
-                    Cookie Policy
-                </ListItem>
-                <ListItem >
-                    IRDAI
-                </ListItem>
-                <ListItem >
-                    Unclaimed Amount
-                </ListItem>
-                <ListItem >
-                    Fraud Control Policy
-                </ListItem>
-                <ListItem >
-                    Blacklisted Advisors
-                </ListItem>
-                <ListItem >
-                    Data Privacy Policy
-                </ListItem>
-                <ListItem >
-                    Policy for Protection of Interests of Policyholders
-                </ListItem>
-                <ListItem >
-                    Nomination and Remuneration Policy
-                </ListItem>
-                <ListItem >
-                    Related Party Transaction Policy
-                </ListItem>
-                <ListItem >
-                    Whistleblower Policy
-                </ListItem>
-                <ListItem >
-                    Underwriting Philosophy Disability and Mental Illness
-                </ListItem>
-                <ListItem >
-                    Underwriting Philosophy HIV/Aids
-                </ListItem>
+              <ListItem >
+                Insurance Ombudsman
+              </ListItem>
+              <ListItem >
+                Corporate Agents and Brokers
+              </ListItem>
+              <ListItem >
+                Do Not Call
+              </ListItem>
+              <ListItem >
+                Grievance Redressal
+              </ListItem>
+              <ListItem >
+                Life Insurance Council
+              </ListItem>
+              <ListItem >
+                Withdrawn Products
+              </ListItem>
+              <ListItem >
+                Insurance Marketing Firm
+              </ListItem>
+              <ListItem >
+                Terms of Usage
+              </ListItem>
+              <ListItem >
+                Public Disclosures
+              </ListItem>
+              <ListItem >
+                Cookie Policy
+              </ListItem>
+              <ListItem >
+                IRDAI
+              </ListItem>
+              <ListItem >
+                Unclaimed Amount
+              </ListItem>
+              <ListItem >
+                Fraud Control Policy
+              </ListItem>
+              <ListItem >
+                Blacklisted Advisors
+              </ListItem>
+              <ListItem >
+                Data Privacy Policy
+              </ListItem>
+              <ListItem >
+                Policy for Protection of Interests of Policyholders
+              </ListItem>
+              <ListItem >
+                Nomination and Remuneration Policy
+              </ListItem>
+              <ListItem >
+                Related Party Transaction Policy
+              </ListItem>
+              <ListItem >
+                Whistleblower Policy
+              </ListItem>
+              <ListItem >
+                Underwriting Philosophy Disability and Mental Illness
+              </ListItem>
+              <ListItem >
+                Underwriting Philosophy HIV/Aids
+              </ListItem>
             </List>
           </Typography>
         </AccordionDetails>

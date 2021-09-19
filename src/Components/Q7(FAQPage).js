@@ -4,9 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { CardActionArea } from '@material-ui/core';
-import { CardActions } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import SimpleDialogDemo from './DialogBox';
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles({
@@ -33,17 +31,17 @@ export default function SimpleCard12() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-      <CardContent>
-      <Grid container wrap="nowrap" spacing={2}>
-        <Grid item>
-            <HelpIcon/>
-        </Grid>
-          <Grid item xs zeroMinWidth>
-            <Typography noWrap>Is the income received from ULIP plans taxable?</Typography>
+        <CardContent>
+          <Grid container wrap="nowrap" spacing={2}>
+            <Grid item>
+              <HelpIcon />
+            </Grid>
+            <Grid item >
+              <Typography noWrap>Is the income received from ULIP plans taxable?</Typography>
+            </Grid>
           </Grid>
-          </Grid>
-      </CardContent>
-      {/* <CardActions>
+        </CardContent>
+        {/* <CardActions>
         
       </CardActions> */}
       </CardActionArea>

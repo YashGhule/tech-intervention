@@ -19,29 +19,29 @@ function App() {
     <div className="App">
       {/* Header (Navigation Bar) */}
       <header className="App-header">
-      <ProminentAppBar/>
-      {/* <FloatingActionButtons/> */}
+        <ProminentAppBar />
+        {/* <FloatingActionButtons/> */}
       </header>
-      
+
       {/* Router - Pages */}
-          <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/ulip'}  > <ULIP/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/faq'}  > <FAQ/> </Route>
-            <Route path={process.env.PUBLIC_URL + '/jargon'}  > <Jargon/> </Route>
-          </Switch>
+      <Switch>
+        <Route path={process.env.PUBLIC_URL + '/'} exact > <Home /> </Route>
+        <Route path={process.env.PUBLIC_URL + '/home'} > <Home /> </Route>
+        <Route path={process.env.PUBLIC_URL + '/ulip'}  > <ULIP /> </Route>
+        <Route path={process.env.PUBLIC_URL + '/faq'}  > <FAQ /> </Route>
+        <Route path={process.env.PUBLIC_URL + '/jargon'}  > <Jargon /> </Route>
+      </Switch>
 
       <footer className="App-footer">
-        <BasicButtonGroup1/>
-          <Divider/>
-        <BasicButtonGroup2/>
-          <Divider/>
-        <ControlledAccordions1/>
-        <SimplePaper1/>
+        <BasicButtonGroup1 />
+        <Divider />
+        <BasicButtonGroup2 />
+        <Divider />
+        <ControlledAccordions1 />
+        <SimplePaper1 />
       </footer>
     </div>
   );
-  }
+}
 
 export default App;
