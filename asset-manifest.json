@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tech-intervention/static/css/main.af840fbd.chunk.css",
-    "main.js": "/tech-intervention/static/js/main.d78c7a6a.chunk.js",
-    "main.js.map": "/tech-intervention/static/js/main.d78c7a6a.chunk.js.map",
+    "main.css": "/tech-intervention/static/css/main.6fe3ad32.chunk.css",
+    "main.js": "/tech-intervention/static/js/main.95d3f5fd.chunk.js",
+    "main.js.map": "/tech-intervention/static/js/main.95d3f5fd.chunk.js.map",
     "runtime-main.js": "/tech-intervention/static/js/runtime-main.e0f27feb.js",
     "runtime-main.js.map": "/tech-intervention/static/js/runtime-main.e0f27feb.js.map",
-    "static/js/2.13095960.chunk.js": "/tech-intervention/static/js/2.13095960.chunk.js",
-    "static/js/2.13095960.chunk.js.map": "/tech-intervention/static/js/2.13095960.chunk.js.map",
+    "static/js/2.c39c66be.chunk.js": "/tech-intervention/static/js/2.c39c66be.chunk.js",
+    "static/js/2.c39c66be.chunk.js.map": "/tech-intervention/static/js/2.c39c66be.chunk.js.map",
     "index.html": "/tech-intervention/index.html",
-    "static/css/main.af840fbd.chunk.css.map": "/tech-intervention/static/css/main.af840fbd.chunk.css.map",
-    "static/js/2.13095960.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.13095960.chunk.js.LICENSE.txt",
-    "static/media/logo.355735b3.svg": "/tech-intervention/static/media/logo.355735b3.svg"
+    "static/css/main.6fe3ad32.chunk.css.map": "/tech-intervention/static/css/main.6fe3ad32.chunk.css.map",
+    "static/js/2.c39c66be.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.c39c66be.chunk.js.LICENSE.txt",
+    "static/media/BhartiAXALogo.4256bf2c.svg": "/tech-intervention/static/media/BhartiAXALogo.4256bf2c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e0f27feb.js",
-    "static/js/2.13095960.chunk.js",
-    "static/css/main.af840fbd.chunk.css",
-    "static/js/main.d78c7a6a.chunk.js"
+    "static/js/2.c39c66be.chunk.js",
+    "static/css/main.6fe3ad32.chunk.css",
+    "static/js/main.95d3f5fd.chunk.js"
   ]
 }
