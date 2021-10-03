@@ -4,14 +4,13 @@ import Home from './Pages/Home.js'
 import ULIP from './Pages/ULIP'
 import FAQ from './Pages/FAQ';
 import Jargon from './Pages/Jargon';
-import FloatingActionButtons from './Components/FAButtonHome';
-import ProminentAppBar from './Components/AppBar';
-import SimpleCard1 from './Components/LifeInsurancePlanHomeCard';
-import BasicButtonGroup1 from './Components/SocialMediaIcons(Footer)';
-import BasicButtonGroup2 from './Components/ContactIcons(Footer)';
+import ProminentAppBar from './Components/Header (App Bar)/AppBar';
+import BasicButtonGroup1 from './Components/Footer/SocialMediaIcons(Footer)';
+import BasicButtonGroup2 from './Components/Footer/ContactIcons(Footer)';
 import { Divider } from '@material-ui/core';
-import ControlledAccordions1 from './Components/Accordion(Footer)';
-import SimplePaper1 from './Components/IRDAINotice&Copyrights(Footer)';
+import ControlledAccordions1 from './Components/Footer/Accordion(Footer)';
+import SimplePaper1 from './Components/Footer/IRDAINotice&Copyrights(Footer)';
+import Grid from '@material-ui/core/Grid';
 
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
       {/* Header (Navigation Bar) */}
       <header className="App-header">
         <ProminentAppBar />
-        {/* <FloatingActionButtons/> */}
       </header>
 
       {/* Router - Pages */}
@@ -33,12 +31,26 @@ function App() {
       </Switch>
 
       <footer className="App-footer">
-        <BasicButtonGroup1 />
-        <Divider />
-        <BasicButtonGroup2 />
-        <Divider />
+        <Grid container spacing={2} >
+          <Grid item xs={12} sm={12} md={12}>
+            <BasicButtonGroup1 />
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            <Divider />
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            <BasicButtonGroup2 />
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            <Divider />
+          </Grid>
+        </Grid>
+        {/* <Grid item xs={12} sm={12} md={12}> */}
         <ControlledAccordions1 />
+        {/* </Grid> */}
+        {/* <Grid item xs={12} sm={12} md={12}> */}
         <SimplePaper1 />
+        {/* </Grid> */}
       </footer>
     </div>
   );
