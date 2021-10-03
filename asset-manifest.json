@@ -1,21 +1,42 @@
 {
   "files": {
-    "main.css": "/tech-intervention/static/css/main.6fe3ad32.chunk.css",
-    "main.js": "/tech-intervention/static/js/main.95d3f5fd.chunk.js",
-    "main.js.map": "/tech-intervention/static/js/main.95d3f5fd.chunk.js.map",
+    "main.css": "/tech-intervention/static/css/main.b0a5178a.chunk.css",
+    "main.js": "/tech-intervention/static/js/main.66270a91.chunk.js",
+    "main.js.map": "/tech-intervention/static/js/main.66270a91.chunk.js.map",
     "runtime-main.js": "/tech-intervention/static/js/runtime-main.e0f27feb.js",
     "runtime-main.js.map": "/tech-intervention/static/js/runtime-main.e0f27feb.js.map",
-    "static/js/2.c39c66be.chunk.js": "/tech-intervention/static/js/2.c39c66be.chunk.js",
-    "static/js/2.c39c66be.chunk.js.map": "/tech-intervention/static/js/2.c39c66be.chunk.js.map",
+    "static/js/2.1e8a164a.chunk.js": "/tech-intervention/static/js/2.1e8a164a.chunk.js",
+    "static/js/2.1e8a164a.chunk.js.map": "/tech-intervention/static/js/2.1e8a164a.chunk.js.map",
     "index.html": "/tech-intervention/index.html",
-    "static/css/main.6fe3ad32.chunk.css.map": "/tech-intervention/static/css/main.6fe3ad32.chunk.css.map",
-    "static/js/2.c39c66be.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.c39c66be.chunk.js.LICENSE.txt",
-    "static/media/BhartiAXALogo.4256bf2c.svg": "/tech-intervention/static/media/BhartiAXALogo.4256bf2c.svg"
+    "static/css/main.b0a5178a.chunk.css.map": "/tech-intervention/static/css/main.b0a5178a.chunk.css.map",
+    "static/js/2.1e8a164a.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.1e8a164a.chunk.js.LICENSE.txt",
+    "static/media/Achieve Goals Icon.e75a131d.svg": "/tech-intervention/static/media/Achieve Goals Icon.e75a131d.svg",
+    "static/media/Anil Kumar.ca941584.svg": "/tech-intervention/static/media/Anil Kumar.ca941584.svg",
+    "static/media/Are these your(Illustration).2c7cc502.svg": "/tech-intervention/static/media/Are these your(Illustration).2c7cc502.svg",
+    "static/media/BhartiAXALogo.4256bf2c.svg": "/tech-intervention/static/media/BhartiAXALogo.4256bf2c.svg",
+    "static/media/Charges for Policy Administration.15e3a29e.svg": "/tech-intervention/static/media/Charges for Policy Administration.15e3a29e.svg",
+    "static/media/Charges for Premium Allocation.11c01744.svg": "/tech-intervention/static/media/Charges for Premium Allocation.11c01744.svg",
+    "static/media/Create Wealth Icon.81b42857.svg": "/tech-intervention/static/media/Create Wealth Icon.81b42857.svg",
+    "static/media/Flexibility of Investment.0a97c7a2.svg": "/tech-intervention/static/media/Flexibility of Investment.0a97c7a2.svg",
+    "static/media/Greater Rewards.14fd699c.svg": "/tech-intervention/static/media/Greater Rewards.14fd699c.svg",
+    "static/media/Important Updates.e3a6cdd5.svg": "/tech-intervention/static/media/Important Updates.e3a6cdd5.svg",
+    "static/media/Just Launched.5d242c03.svg": "/tech-intervention/static/media/Just Launched.5d242c03.svg",
+    "static/media/Media Speak.f361494b.svg": "/tech-intervention/static/media/Media Speak.f361494b.svg",
+    "static/media/Most Read.d72f01a2.svg": "/tech-intervention/static/media/Most Read.d72f01a2.svg",
+    "static/media/Potential Growth.f2143446.svg": "/tech-intervention/static/media/Potential Growth.f2143446.svg",
+    "static/media/Protect Life Icon.e33a32d6.svg": "/tech-intervention/static/media/Protect Life Icon.e33a32d6.svg",
+    "static/media/Protection.feb67618.svg": "/tech-intervention/static/media/Protection.feb67618.svg",
+    "static/media/Regular Savings.47ad7fb6.svg": "/tech-intervention/static/media/Regular Savings.47ad7fb6.svg",
+    "static/media/Sunaina Mehta.eae4f14b.svg": "/tech-intervention/static/media/Sunaina Mehta.eae4f14b.svg",
+    "static/media/Tax Benefits.6c4e5f6c.svg": "/tech-intervention/static/media/Tax Benefits.6c4e5f6c.svg",
+    "static/media/We Won.cc18ef7b.svg": "/tech-intervention/static/media/We Won.cc18ef7b.svg",
+    "static/media/Yogesh Sharma.91ebef5a.svg": "/tech-intervention/static/media/Yogesh Sharma.91ebef5a.svg",
+    "static/media/nineninePercent.35190fd9.svg": "/tech-intervention/static/media/nineninePercent.35190fd9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e0f27feb.js",
-    "static/js/2.c39c66be.chunk.js",
-    "static/css/main.6fe3ad32.chunk.css",
-    "static/js/main.95d3f5fd.chunk.js"
+    "static/js/2.1e8a164a.chunk.js",
+    "static/css/main.b0a5178a.chunk.css",
+    "static/js/main.66270a91.chunk.js"
   ]
 }
