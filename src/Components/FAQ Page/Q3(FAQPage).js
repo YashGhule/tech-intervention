@@ -11,7 +11,8 @@ import SimpleDialogDemo7 from './DialogBox(Q3FAQPage)';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    backgroundColor: '#FFECE8'
+    backgroundColor: '#FFECE8',
+    borderRadius: 15
   },
   bullet: {
     display: 'inline-block',

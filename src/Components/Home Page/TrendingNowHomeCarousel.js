@@ -18,7 +18,7 @@ const tutorialSteps = [
   {
     label: 'Media Speak',
     imgPath: MediaSpeak,
-    text: 'Bharti AXA urges you to choose certainty for important life goals with guaranteed solution',
+    text: 'Bharti AXA urges you to choose certainty for the important life goals with our guaranteed solution',
     hashtag: '#savingsplan #bhartaxasmartplan',
   },
   {
@@ -56,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 400,
     flexGrow: 1,
     // display: 'inline-block',
+    backgroundColor: '#FFECE8',
   },
   header: {
     display: 'flex',
@@ -63,11 +64,16 @@ const useStyles = makeStyles((theme) => ({
     height: 50,
     paddingLeft: theme.spacing(0),
     backgroundColor: theme.palette.background.default,
+    backgroundColor: '#FFECE8',
   },
   body: {
     fontSize: 20,
     paddingLeft: theme.spacing(3),
     paddingTop: theme.spacing(2),
+    backgroundColor: '#FFECE8',
+  },
+  step: {
+    backgroundColor: '#FFECE8',
   },
   img: {
     height: 150,
@@ -94,10 +100,10 @@ export default function TextMobileStepper() {
 
   return (
     <div className={classes.root}>
-      <Paper square elevation={0} className={classes.header}>
+      <Paper square elevation={0} className={classes.header} >
         <Grid container spacing={1} >
           <Grid item xs={12} sm={12} md={12}>
-            <Typography>{tutorialSteps[activeStep].label}</Typography>
+            <Typography style={{ fontFamily: 'Montserrat', fontSize: '17px' }}>{tutorialSteps[activeStep].label}</Typography>
           </Grid>
         </Grid>
       </Paper>
@@ -106,11 +112,11 @@ export default function TextMobileStepper() {
         alignItems="center"
       >
         <Grid item xs={6} sm={6} md={6}>
-          <Paper square elevation={0} className={classes.body}>
-            <Typography >
+          <Paper square elevation={0} className={classes.body} >
+            <Typography style={{ fontFamily: 'SFPro', fontSize: '13px', textAlign: 'left', marginBottom: '8px' }}>
               {tutorialSteps[activeStep].text}
             </Typography>
-            <Typography >
+            <Typography style={{ fontFamily: 'SFPro', fontSize: '13px', textAlign: 'left' }}>
               {tutorialSteps[activeStep].hashtag}
             </Typography>
           </Paper>
@@ -124,11 +130,12 @@ export default function TextMobileStepper() {
         </Grid>
       </Grid>
 
-      <MobileStepper
+      <MobileStepper className={classes.step}
         steps={maxSteps}
         position="static"
         variant="dots"
         activeStep={activeStep}
+
         nextButton={
           <Button size="small" onClick={handleNext} disabled={activeStep === maxSteps - 1}>
             {/* Next */}

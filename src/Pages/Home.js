@@ -12,27 +12,57 @@ import SimpleCard4 from '../Components/Home Page/AnsYourQueriesCard3';
 import SimpleCard5 from '../Components/Home Page/AnsYourQueriesCard4';
 import Grid from '@material-ui/core/Grid';
 import AretheseyourIllustration from '../Assets/Are these your(Illustration).svg';
+import { Typography } from '@material-ui/core';
+
+const useStyles = makeStyles({
+  title: {
+    fontFamily: 'Montserrat',
+    fontWeight: '800',
+    fontSize: 27,
+  },
+
+  subtitle: {
+    fontFamily: 'Montserrat',
+    fontWeight: '500',
+    fontSize: 27,
+  },
+
+  body: {
+    fontFamily: 'SFPro',
+    fontWeight: 'normal',
+    fontSize: 16,
+  },
+
+  buynow: {
+    marginBottom: '25px',
+  },
+});
 
 export default function Home() {
+  const classes = useStyles();
+
   return (
     <React.Fragment>
       <Container fixed>
         <Grid container spacing={3} >
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
-              Are these your life's BIG questions?
-            </h2>
+            <Typography className={classes.title} style={{ marginTop: "20px" }} >
+              Are these your
+            </Typography>
+            <Typography className={classes.title}>
+              life's BIG questions?
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <img src={AretheseyourIllustration} className="AretheseyourIllustration" alt="AretheseyourIllustration" width="340" height="100%" />
+            <img src={AretheseyourIllustration} className="AretheseyourIllustration" alt="AretheseyourIllustration" width="320" height="100%" />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <SimpleCard1 />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
+            <Typography className={classes.subtitle}>
               Trending Now!
-            </h2>
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <TextMobileStepper />
@@ -41,9 +71,9 @@ export default function Home() {
             <TextMobileStepper1 />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
+            <Typography className={classes.subtitle}>
               Answering your Queries
-            </h2>
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <SimpleCard2 />
@@ -61,14 +91,16 @@ export default function Home() {
             <ContainedButtons2 />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
+            <Typography className={classes.subtitle}>
               Get Customized Quote
-            </h2>
-            <p>
-              With Bharti AXA Life Insurance guaranteed income pro, get insurance cover and assured returns on maturity
-            </p>
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
+            <Typography className={classes.body}>
+              With Bharti AXA Life Insurance guaranteed income pro, get insurance cover and assured returns on maturity
+            </Typography>
+          </Grid>
+          <Grid item xs={12} sm={12} md={12} className={classes.buynow}>
             <ContainedButtons1 />
           </Grid>
         </Grid>

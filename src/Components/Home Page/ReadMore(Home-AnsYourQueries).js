@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
-      borderRadius: 20,
+      borderRadius: 20
     },
   },
 }));
@@ -16,7 +16,7 @@ export default function ContainedButtons2() {
 
   return (
     <div className={classes.root} >
-      <Button variant="contained" color="primary">
+      <Button variant="contained" style={{ backgroundColor: '#00529C', color: "#FFFFFF" }}>
         Read More
       </Button>
     </div>

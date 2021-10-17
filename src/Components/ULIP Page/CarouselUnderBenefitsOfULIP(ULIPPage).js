@@ -51,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
     flexGrow: 1,
+    backgroundColor: '#FFEECB',
   },
   header: {
     display: 'flex',
@@ -58,11 +59,16 @@ const useStyles = makeStyles((theme) => ({
     height: 50,
     paddingLeft: theme.spacing(0),
     backgroundColor: theme.palette.background.default,
+    backgroundColor: '#FFEECB',
   },
   body: {
     fontSize: 10,
     paddingLeft: theme.spacing(3),
     paddingTop: theme.spacing(2),
+    backgroundColor: '#FFEECB',
+  },
+  step: {
+    backgroundColor: '#FFEECB',
   },
   img: {
     height: 150,
@@ -92,7 +98,7 @@ export default function TextMobileStepper2() {
       <Paper square elevation={0} className={classes.header}>
         <Grid container spacing={1} >
           <Grid item xs={12} sm={12} md={12}>
-            <Typography>{tutorialSteps[activeStep].label}</Typography>
+            <Typography style={{ fontFamily: 'Montserrat', fontSize: '17px' }}>{tutorialSteps[activeStep].label}</Typography>
           </Grid>
         </Grid>
       </Paper>
@@ -102,7 +108,7 @@ export default function TextMobileStepper2() {
       >
         <Grid item xs={6} sm={6} md={6}>
           <Paper square elevation={0} className={classes.body}>
-            <Typography>
+            <Typography style={{ fontFamily: 'SFPro', fontSize: '13px', textAlign: 'left' }}>
               {tutorialSteps[activeStep].text}
             </Typography>
           </Paper>
@@ -116,7 +122,7 @@ export default function TextMobileStepper2() {
         </Grid>
       </Grid>
 
-      <MobileStepper
+      <MobileStepper className={classes.step}
         steps={maxSteps}
         position="static"
         // variant="text"

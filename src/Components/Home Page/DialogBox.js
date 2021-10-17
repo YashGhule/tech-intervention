@@ -15,6 +15,12 @@ const useStyles = makeStyles({
     backgroundColor: blue[100],
     color: blue[600],
   },
+
+  type: {
+    fontFamily: 'SFPro',
+    fontWeight: 'normal',
+    fontSize: 15,
+  },
 });
 
 function SimpleDialog(props) {
@@ -37,19 +43,19 @@ function SimpleDialog(props) {
           Claim Settlement ratio is the ratio of Claims Settled against claims reported during the year. Some of the reasons for claim repudiation are as listed below:
         </ListItem>
         <ListItem>
-          Disclosure of medical adversities
+          {'\u2022'} Disclosure of medical adversities
         </ListItem>
         <ListItem>
-          Incorrect disclosure of Age
+          {'\u2022'} Incorrect disclosure of Age
         </ListItem>
         <ListItem>
-          Incorrect disclosure of occupation/income
+          {'\u2022'}  Incorrect disclosure of occupation/income
         </ListItem>
         <ListItem>
-          Non –disclosure of previous insurance
+          {'\u2022'} Non –disclosure of previous insurance
         </ListItem>
         <ListItem>
-          Fraud
+          {'\u2022'} Fraud
         </ListItem>
         <ListItem>
           Please note: The above-mentioned list is only indicative and not an exhaustive list.
@@ -66,6 +72,7 @@ SimpleDialog.propTypes = {
 };
 
 export default function SimpleDialogDemo1() {
+  const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [selectedValue, setSelectedValue] = React.useState(emails[1]);
 
@@ -82,7 +89,7 @@ export default function SimpleDialogDemo1() {
     <div>
       {/* <Typography variant="subtitle1"></Typography> */}
       <Button onClick={handleClickOpen}>
-        <Typography style={{ textTransform: 'normal' }}>
+        <Typography className={classes.type} style={{ fontFamily: "SFPro", fontSize: "15px", textTransform: "capitalize" }}>
           What's the claim settlement ratio and the reasons for claim repudiation?
         </Typography>
       </Button>

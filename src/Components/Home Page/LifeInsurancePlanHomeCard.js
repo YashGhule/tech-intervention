@@ -15,8 +15,9 @@ const useStyles = makeStyles({
   },
 
   title: {
+    fontFamily: 'Montserrat',
+    fontWeight: '500',
     fontSize: 27,
-    fontWeight: 'bold',
   },
 });
 
@@ -31,7 +32,10 @@ export default function SimpleCard1() {
           <Grid container spacing={2} >
             <Grid item xs={12} sm={12} md={12}>
               <Typography className={classes.title}>
-                Life Insurance Plan For Every Possibility
+                Life Insurance Plan
+              </Typography>
+              <Typography className={classes.title}>
+                For Every Possibility
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={12}>

@@ -16,6 +16,11 @@ const useStyles = makeStyles({
         backgroundColor: blue[100],
         color: blue[600],
     },
+    type: {
+        fontFamily: 'SFPro',
+        fontWeight: 'normal',
+        fontSize: 15,
+    },
 });
 
 function SimpleDialog(props) {
@@ -49,6 +54,7 @@ SimpleDialog.propTypes = {
 };
 
 export default function SimpleDialogDemo13() {
+    const classes = useStyles();
     const [open, setOpen] = React.useState(false);
     const [selectedValue, setSelectedValue] = React.useState(emails[1]);
 
@@ -65,7 +71,7 @@ export default function SimpleDialogDemo13() {
         <div>
             {/* <Typography variant="subtitle1"></Typography> */}
             <Button onClick={handleClickOpen}>
-                <Typography style={{ textTransform: 'normal' }}>
+                <Typography className={classes.type} style={{ fontFamily: "SFPro", fontSize: "15px", textTransform: "capitalize" }}>
                     What is the minimum lock-in period in a ULIP insurance policy/investment?
                 </Typography>
             </Button>

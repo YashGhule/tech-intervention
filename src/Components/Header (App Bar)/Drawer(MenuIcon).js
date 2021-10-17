@@ -14,7 +14,7 @@ import FileSystemNavigator from './GlobalNav(Treeview)';
 
 const useStyles = makeStyles({
   list: {
-    width: 250,
+    width: '250',
   },
   fullList: {
     width: 'auto',

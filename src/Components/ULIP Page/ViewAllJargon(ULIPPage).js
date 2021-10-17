@@ -17,7 +17,7 @@ export default function ContainedButtons4() {
   return (
     <div className={classes.root}>
       <Link to={process.env.PUBLIC_URL + '/jargon'}>
-        <Button variant="contained" color="primary" href="">
+        <Button variant="contained" style={{ backgroundColor: '#00529C', color: "#FFFFFF", borderRadius: "5px" }} href="">
           View All Jargon
         </Button>
       </Link>

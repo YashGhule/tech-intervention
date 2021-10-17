@@ -11,7 +11,8 @@ import SimpleDialogDemo3 from './DialogBox(AnsQueCard3)';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    backgroundColor: '#FFECE8'
+    backgroundColor: '#FFECE8',
+    borderRadius: 15
   },
   bullet: {
     display: 'inline-block',

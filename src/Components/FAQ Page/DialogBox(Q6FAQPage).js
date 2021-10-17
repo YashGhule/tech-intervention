@@ -16,6 +16,11 @@ const useStyles = makeStyles({
         backgroundColor: blue[100],
         color: blue[600],
     },
+    type: {
+        fontFamily: 'SFPro',
+        fontWeight: 'normal',
+        fontSize: 15,
+    },
 });
 
 function SimpleDialog(props) {
@@ -49,6 +54,7 @@ SimpleDialog.propTypes = {
 };
 
 export default function SimpleDialogDemo10() {
+    const classes = useStyles();
     const [open, setOpen] = React.useState(false);
     const [selectedValue, setSelectedValue] = React.useState(emails[1]);
 
@@ -65,7 +71,7 @@ export default function SimpleDialogDemo10() {
         <div>
             {/* <Typography variant="subtitle1"></Typography> */}
             <Button onClick={handleClickOpen}>
-                <Typography style={{ textTransform: 'normal' }}>
+                <Typography className={classes.type} style={{ fontFamily: "SFPro", fontSize: "15px", textTransform: "capitalize" }}>
                     What are some of the advantages of buying a ULIP policy online or offline?
                 </Typography>
             </Button>

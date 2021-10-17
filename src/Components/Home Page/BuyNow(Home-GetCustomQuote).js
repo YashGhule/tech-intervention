@@ -16,7 +16,7 @@ export default function ContainedButtons1() {
 
   return (
     <div className={classes.root}>
-      <Button variant="contained" color="primary" >
+      <Button variant="contained" style={{ backgroundColor: '#00529C', color: "#FFFFFF" }} >
         Buy Now
       </Button>
     </div>

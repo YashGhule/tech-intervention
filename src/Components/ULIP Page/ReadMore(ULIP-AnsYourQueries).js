@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
-      borderRadius: 20
+      // borderRadius: 20,
     },
   },
 }));
@@ -18,7 +18,7 @@ export default function ContainedButtons3() {
   return (
     <div className={classes.root}>
       <Link to={process.env.PUBLIC_URL + '/faq'}>
-        <Button variant="contained" color="primary" href="">
+        <Button variant="contained" style={{ backgroundColor: '#00529C', color: "#FFFFFF", borderRadius: "20px" }} href="">
           Read More
         </Button>
       </Link>

@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'center',
     flexDirection: 'row',
     alignItems: 'center',
+    marginTop: '8px',
     '& > *': {
       margin: theme.spacing(0),
     },

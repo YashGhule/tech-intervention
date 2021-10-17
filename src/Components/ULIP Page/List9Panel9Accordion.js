@@ -35,9 +35,11 @@ export default function List9Panel9() {
       <ListItem >
         Other benefits included in the ULIP scheme are a death benefit, maturity benefit, loyalty addition, settlement option, and others.
       </ListItem>
-      <ListItem >
-        Bharti AXA Life Wealth Pro Plan
-        Details
+      <ListItem style={{ color: "#B4B4B4", textTransform: "uppercase" }}>
+        <b>Bharti AXA Life Wealth Pro Plan</b>
+      </ListItem>
+      <ListItem style={{ color: "#00529C", fontSize: "18px" }}>
+        <b>Details</b>
       </ListItem>
     </List>
   );

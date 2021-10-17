@@ -19,7 +19,7 @@ export default function List11Panel11() {
   return (
     <List component="nav" className={classes.root} aria-label="mailbox folders">
       <ListItem >
-        ULIP plan returns can be calculated easily by following certain steps. With the help of the online calculator, you can calculate the estimated investment returns.
+        ULIP plan returns can be calculated easily by following certain steps. With the help of the online calculator, you can calculate estimated investment returns.
       </ListItem>
       {/* <Divider /> */}
       <ListItem >
@@ -30,10 +30,10 @@ export default function List11Panel11() {
       </ListItem>
       {/* <Divider light /> */}
       <ListItem >
-        Then select the policy's tenure and the amount of premium payment they want to allocate for investment. Next, the investor will have to select the lock-in period of investment. The ULIP plans offer a minimum lock-in period of 5 years.
+        Then select the policy's tenure and the amount of premium payment they want to allocate for investment. Next, the investor will have to select the lock-in period of investment. ULIP plans offer a minimum lock-in period of 5 years.
       </ListItem>
       <ListItem >
-        Still, according to the experts, it is more beneficial to gain maximum return on investment by investing for a long period. As the last step, the investor must select the funds they want to invest their money in.
+        Still, according to the experts, it is more beneficial to gain maximum return on investment by investing for a long period. As the last step, investor must select the funds they want to invest their money in.
       </ListItem>
       <ListItem >
         However, before investing, it is highly important to check how the fund has performed in the market. The ULIP calculator is very easy and hassle-free to use. Along with estimating the returns, the ULIP calculators also take into consideration the inflation rates.

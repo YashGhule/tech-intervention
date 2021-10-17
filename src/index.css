@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./Fonts/Montserrat/Montserrat-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: local('SFPro'), url(./Fonts/SFPro/SF-Pro-Text-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SFUI';
+  src: local('SFUI'), url(./Fonts/SFUI/SFUIText-Regular.ttf) format('truetype');
+}
+

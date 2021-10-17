@@ -13,12 +13,25 @@ import Grid from '@material-ui/core/Grid';
 import CreateWealthIcon from '../../Assets/Create Wealth Icon.svg';
 import AchieveGoalsIcon from '../../Assets/Achieve Goals Icon.svg';
 import ProtectLifeIcon from '../../Assets/Protect Life Icon.svg';
+import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
     // maxWidth: 360,
     backgroundColor: '#BFD3E6',
+  },
+
+  primary: {
+    fontFamily: 'Montserrat',
+    fontWeight: 'normal',
+    fontSize: 17,
+  },
+
+  secondary: {
+    fontFamily: 'SFPro',
+    fontWeight: 'normal',
+    fontSize: 14,
   },
 }));
 
@@ -33,7 +46,14 @@ export default function InsetDividers() {
           <img src={ProtectLifeIcon} className="ProtectLifeIcon" alt="ProtectLifeIcon" />
           {/* </Avatar> */}
         </ListItemAvatar>
-        <ListItemText primary="Protect Life" secondary="Explore for our term insurance plans" />
+        <ListItemText>
+          <Typography className={classes.primary}>
+            Protect Life
+          </Typography>
+          <Typography className={classes.secondary}>
+            Explore for our term insurance plans
+          </Typography>
+        </ListItemText>
       </ListItem>
       <Divider variant="inset" component="li" />
       <ListItem button>
@@ -42,7 +62,14 @@ export default function InsetDividers() {
           <img src={CreateWealthIcon} className="CreateWealthIcon" alt="CreateWealthIcon" />
           {/* </Avatar> */}
         </ListItemAvatar>
-        <ListItemText primary="Create Wealth" secondary="Choose from our spread of ULIP Plans" />
+        <ListItemText>
+          <Typography className={classes.primary}>
+            Create Wealth
+          </Typography>
+          <Typography className={classes.secondary}>
+            Choose from our spread of ULIP Plans
+          </Typography>
+        </ListItemText>
       </ListItem>
       <Divider variant="inset" component="li" />
       <ListItem button>
@@ -51,7 +78,14 @@ export default function InsetDividers() {
           <img src={AchieveGoalsIcon} className="AchieveGoalsIcon" alt="AchieveGoalsIcon" />
           {/* </Avatar> */}
         </ListItemAvatar>
-        <ListItemText primary="Achieve Goals" secondary="Get guaranteed returns from our savings plan" />
+        <ListItemText>
+          <Typography className={classes.primary}>
+            Achieve Goals
+          </Typography>
+          <Typography className={classes.secondary}>
+            Get guaranteed returns from our savings plan
+          </Typography>
+        </ListItemText>
       </ListItem>
     </List>
   );

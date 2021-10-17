@@ -1,4 +1,5 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import SimpleCard6 from '../Components/FAQ Page/Q1(FAQPage)';
 import SimpleCard7 from '../Components/FAQ Page/Q2(FAQPage)';
@@ -12,8 +13,19 @@ import SimpleCard14 from '../Components/FAQ Page/Q9(FAQPage)';
 import SimpleCard15 from '../Components/FAQ Page/Q10(FAQPage)';
 import SimpleBreadcrumbs2 from '../Components/FAQ Page/Breadcrumb(FAQPage)';
 import Grid from '@material-ui/core/Grid';
+import { Typography } from '@material-ui/core';
+
+const useStyles = makeStyles({
+  title: {
+    fontFamily: 'Montserrat',
+    fontWeight: '500',
+    fontSize: 27,
+  },
+});
 
 export default function FAQ() {
+  const classes = useStyles();
+
   return (
     <React.Fragment>
       <Container fixed>
@@ -22,9 +34,12 @@ export default function FAQ() {
             <SimpleBreadcrumbs2 />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
-              FAQs
-            </h2>
+            <Typography className={classes.title}>
+              ULIP - Answering
+            </Typography>
+            <Typography className={classes.title}>
+              Your Queries
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <SimpleCard6 />

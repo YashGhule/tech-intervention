@@ -11,7 +11,8 @@ import SimpleDialogDemo5 from './DialogBox(Q1FAQPage)';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    backgroundColor: '#BFE5F5'
+    backgroundColor: '#BFE5F5',
+    borderRadius: 15
   },
   bullet: {
     display: 'inline-block',

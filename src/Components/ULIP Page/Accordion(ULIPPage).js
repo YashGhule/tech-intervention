@@ -22,16 +22,27 @@ import List14Panel14 from './List14Panel14Accordion';
 import List15Panel15 from './List15Panel15Accordion';
 import List13Panel13 from './List13Panel13Accordion';
 import Grid from '@material-ui/core/Grid';
+import StepstoBuyULIPOnlineinIndia from '../../Assets/Steps to Buy ULIP Online in India.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
-    flexBasis: '33.33%',
+    fontFamily: 'SFPro',
+    fontWeight: '600',
+    fontSize: 17,
+    flexBasis: '100%',
     flexShrink: 0,
   },
+  body: {
+    fontFamily: 'SFPro',
+    fontWeight: '500',
+    fontSize: 14,
+    flexBasis: '100%',
+    flexShrink: 0,
+  },
+
   secondaryHeading: {
     fontSize: theme.typography.pxToRem(15),
     color: theme.palette.text.secondary,
@@ -50,7 +61,7 @@ export default function ControlledAccordions2() {
     <div className={classes.root}>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
@@ -59,7 +70,7 @@ export default function ControlledAccordions2() {
         <AccordionDetails>
           {/* <Grid container spacing={3} >
             <Grid item xs={12} sm={12} md={12}> */}
-          <Typography>
+          <Typography className={classes.body}>
             <List1Panel1 />
           </Typography>
           {/* </Grid>
@@ -68,21 +79,21 @@ export default function ControlledAccordions2() {
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
           <Typography className={classes.heading}>Importance of Top ULIP Plans</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List2Panel2 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
@@ -94,77 +105,77 @@ export default function ControlledAccordions2() {
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Features of ULIP </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List4Panel4 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Who Should Buy ULIP Plan?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List5Panel5 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>How to Choose the ULIP Plan?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List6Panel6 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Why should you Buy a Unit Link Insurance Policy?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List7Panel7 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Key Aspects to Consider as an Investor in ULIP</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List8Panel8 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
@@ -173,7 +184,7 @@ export default function ControlledAccordions2() {
         <AccordionDetails>
           <Grid container spacing={3} >
             <Grid item xs={12} sm={12} md={12}>
-              <Typography>
+              <Typography className={classes.body}>
                 <List9Panel9 />
               </Typography>
             </Grid>
@@ -185,35 +196,35 @@ export default function ControlledAccordions2() {
       </Accordion>
       <Accordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>How to Invest Long Term with ULIP Lock-In Period?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List10Panel10 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>How to Calculate ULIP Plan Returns?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List11Panel11 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
@@ -222,7 +233,7 @@ export default function ControlledAccordions2() {
         <AccordionDetails>
           <Grid container spacing={3} >
             <Grid item xs={12} sm={12} md={12}>
-              <Typography>
+              <Typography className={classes.body}>
                 There are fees associated with ULIPs, which can be broken down into several categories. The following are the ones you should be aware of.
               </Typography>
             </Grid>
@@ -234,15 +245,16 @@ export default function ControlledAccordions2() {
       </Accordion>
       <Accordion expanded={expanded === 'panel13'} onChange={handleChange('panel13')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Steps to Buy ULIP Online in India</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             ULIP plans, like any other life insurance product, can be acquired online quickly and easily. So, let's have a look at how to buy ULIP plan online.
+            <img src={StepstoBuyULIPOnlineinIndia} className="StepstoBuyULIPOnlineinIndia" alt="StepstoBuyULIPOnlineinIndia" width="300" height="300" />
             <List13Panel13 />
             Investors can pay using a debit card, a credit card, an online wallet, or net banking to buy ULIP  policy online.
           </Typography>
@@ -250,28 +262,28 @@ export default function ControlledAccordions2() {
       </Accordion>
       <Accordion expanded={expanded === 'panel14'} onChange={handleChange('panel14')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>ULIP Plan Claim Process</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List14Panel14 />
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel15'} onChange={handleChange('panel15')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{ color: "#00529C" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography className={classes.heading}>Factors Impacting ULIP Plan Premium</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className={classes.body}>
             <List15Panel15 />
           </Typography>
         </AccordionDetails>
