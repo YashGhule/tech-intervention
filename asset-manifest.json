@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tech-intervention/static/css/main.0345ecbf.chunk.css",
-    "main.js": "/tech-intervention/static/js/main.090a5aaf.chunk.js",
-    "main.js.map": "/tech-intervention/static/js/main.090a5aaf.chunk.js.map",
+    "main.js": "/tech-intervention/static/js/main.07e51ac5.chunk.js",
+    "main.js.map": "/tech-intervention/static/js/main.07e51ac5.chunk.js.map",
     "runtime-main.js": "/tech-intervention/static/js/runtime-main.e0f27feb.js",
     "runtime-main.js.map": "/tech-intervention/static/js/runtime-main.e0f27feb.js.map",
-    "static/js/2.157adbee.chunk.js": "/tech-intervention/static/js/2.157adbee.chunk.js",
-    "static/js/2.157adbee.chunk.js.map": "/tech-intervention/static/js/2.157adbee.chunk.js.map",
+    "static/js/2.b6d8d7fe.chunk.js": "/tech-intervention/static/js/2.b6d8d7fe.chunk.js",
+    "static/js/2.b6d8d7fe.chunk.js.map": "/tech-intervention/static/js/2.b6d8d7fe.chunk.js.map",
     "index.html": "/tech-intervention/index.html",
     "static/css/main.0345ecbf.chunk.css.map": "/tech-intervention/static/css/main.0345ecbf.chunk.css.map",
-    "static/js/2.157adbee.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.157adbee.chunk.js.LICENSE.txt",
+    "static/js/2.b6d8d7fe.chunk.js.LICENSE.txt": "/tech-intervention/static/js/2.b6d8d7fe.chunk.js.LICENSE.txt",
     "static/media/Achieve Goals Icon.e75a131d.svg": "/tech-intervention/static/media/Achieve Goals Icon.e75a131d.svg",
     "static/media/Anil Kumar.ca941584.svg": "/tech-intervention/static/media/Anil Kumar.ca941584.svg",
     "static/media/Are these your(Illustration).2c7cc502.svg": "/tech-intervention/static/media/Are these your(Illustration).2c7cc502.svg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e0f27feb.js",
-    "static/js/2.157adbee.chunk.js",
+    "static/js/2.b6d8d7fe.chunk.js",
     "static/css/main.0345ecbf.chunk.css",
-    "static/js/main.090a5aaf.chunk.js"
+    "static/js/main.07e51ac5.chunk.js"
   ]
 }
