@@ -64,14 +64,14 @@ export default function ProminentAppBar() {
                 {/* <MenuIcon /> */}
               </IconButton>
             </Grid>
-            <Grid item xs sm={1} md={10}>
+            <Grid item xs sm={0} md={10}>
               <Link to={process.env.PUBLIC_URL + '/'}>
                 <IconButton className={classes.logoButton} >
                   <img src={logo} className="BhartiAXA" alt="logo" />
                 </IconButton>
               </Link>
             </Grid>
-            <Grid item xs={0} sm={1} md={1}>
+            <Grid item xs={0} sm={0} md={1}>
               <IconButton className={classes.searchButton} aria-label="search" color="#000000">
                 {/* <TemporaryDrawer2/> */}
                 <Search />

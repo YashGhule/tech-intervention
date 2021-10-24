@@ -33,7 +33,7 @@ export default function BasicTable() {
   return (
     <Grid container spacing={3} >
       <Grid item xs={12} sm={12} md={12}>
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} style={{ borderWidth: "1px", borderStyle: "solid", borderColor: "#CACBCC" }}>
           <Table className={classes.table} aria-label="simple table">
             {/* <TableHead> */}
             {/* <TableRow> */}

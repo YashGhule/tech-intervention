@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     minWidth: 275,
     backgroundColor: '#DCE7F1',
     borderRadius: 15,
-    marginBottom: '30px',
+    marginBottom: '60px',
   },
   bullet: {
     display: 'inline-block',

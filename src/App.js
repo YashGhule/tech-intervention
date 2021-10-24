@@ -11,6 +11,9 @@ import { Divider } from '@material-ui/core';
 import ControlledAccordions1 from './Components/Footer/Accordion(Footer)';
 import SimplePaper1 from './Components/Footer/IRDAINotice&Copyrights(Footer)';
 import Grid from '@material-ui/core/Grid';
+import Hidden from '@material-ui/core/Hidden';
+import ControlledAccordions2 from './Components/ULIP Page/Accordion(ULIPPage)';
+import ControlledAccordions3 from './Components/Footer/Accordion(Footer) - Desktop';
 
 
 function App() {
@@ -46,7 +49,12 @@ function App() {
           </Grid>
         </Grid>
         {/* <Grid item xs={12} sm={12} md={12}> */}
-        <ControlledAccordions1 />
+        <Hidden only={['lg']}>
+          <ControlledAccordions1 />
+        </Hidden>
+        <Hidden only={['xs', 'sm', 'md']}>
+          <ControlledAccordions3 />
+        </Hidden>
         {/* </Grid> */}
         {/* <Grid item xs={12} sm={12} md={12}> */}
         <SimplePaper1 />

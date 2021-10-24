@@ -14,6 +14,7 @@ import SimpleCard15 from '../Components/FAQ Page/Q10(FAQPage)';
 import SimpleBreadcrumbs2 from '../Components/FAQ Page/Breadcrumb(FAQPage)';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
+import Hidden from '@material-ui/core/Hidden';
 
 const useStyles = makeStyles({
   title: {
@@ -34,12 +35,19 @@ export default function FAQ() {
             <SimpleBreadcrumbs2 />
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <Typography className={classes.title}>
-              ULIP - Answering
-            </Typography>
-            <Typography className={classes.title}>
-              Your Queries
-            </Typography>
+            <Hidden only="xs">
+              <Typography className={classes.title}>
+                ULIP - Answering Your Queries
+              </Typography>
+            </Hidden>
+            <Hidden only={['sm', 'md', 'lg']}>
+              <Typography className={classes.title}>
+                ULIP - Answering
+              </Typography>
+              <Typography className={classes.title}>
+                Your Queries
+              </Typography>
+            </Hidden>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <SimpleCard6 />

@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: '500',
     fontSize: 15,
     textAlign: 'left',
-    marginTop: '20px',
+    marginTop: '30px',
     marginLeft: '30px',
     marginRight: '30px',
   },
@@ -59,7 +59,7 @@ export default function SimplePaper1() {
         <p style={{ color: "#FFFFFF", marginBottom: "20px" }} className={classes.body}>
           IRDAI is not involved in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint.
         </p>
-        <Divider classes={{ root: classes.divider }} />
+        <Divider classes={{ root: classes.divider }} style={{ width: "90%", marginLeft: "20px", marginRight: "20px" }} />
         <p style={{ color: "#FFFFFF", fontSize: "14px" }} className={classes.body}>
           Copyright. All rights reserved.
         </p>
