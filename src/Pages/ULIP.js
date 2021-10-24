@@ -300,9 +300,9 @@ export default function ULIP() {
             <SimpleCard24 />
           </Hidden>
           <Grid item xs={12} sm={12} md={12}>
-            <h2>
+            <Typography style={{ marginBottom: '30px', fontFamily: 'Montserrat', fontSize: '27px' }}>
               ULIP - Answering Your Queries
-            </h2>
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <SimpleCard6 />
